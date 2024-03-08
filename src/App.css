@@ -36,4 +36,43 @@ header {
   border: solid 1px green;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+.proyectosContainer {
+  border: solid 1px rgb(162, 0, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.imagenesProyectos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculadoraWeb {
+  width: 200px;
+}
+
+.listaDeCompras {
+  width: 200px;
+}
+
+.buscadorDeGifs {
+  width: 200px;
+}
+
+.contadorApp {
+  width: 200px;
 }

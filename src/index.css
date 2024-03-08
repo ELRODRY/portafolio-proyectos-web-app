@@ -19,8 +19,9 @@ body {
   margin: 0;
   flex-direction: column;
   /* min-width: 320px; */
-  height: 100vh;
+  /* height: 100vh; */
   border: solid 1px red;
+  padding-top: 10px;
 }
 
 /* button:hover {
