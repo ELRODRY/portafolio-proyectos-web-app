@@ -1,41 +1,42 @@
-/* .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+html {
+  scroll-behavior: smooth;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-} */
 
 header {
-  border: 1px solid rgb(255, 115, 0);
   width: 100%;
   display: flex;
+  background-color: #1a1a70;
   position: fixed;
   margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .tituloIzquierda {
   flex: 1;
   margin-left: 30px;
+  color: antiquewhite;
 }
 
 .anchorsHeader {
   margin-right: 30px;
+  transition: all 500ms;
 }
 
-.sobreHeader {
-  margin: 0px 10px 0px 10px;
-}
-
-.proyectosaHeader {
-  margin: 0px 10px 0px 10px;
+.anchorsHeader:hover {
+  transform: scale(1.3);
 }
 
 .contactoHeader {
   margin: 0px 0px 0px 10px;
+  color: #e2e2ed;
 }
 
 .sobreContainer {
-  border: solid 1px green;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -48,7 +49,6 @@ h3 {
 }
 
 .proyectosContainer {
-  border: solid 1px rgb(162, 0, 255);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -56,51 +56,220 @@ h3 {
   margin-top: 30px;
 }
 
+.textoProyectos {
+  border: 2px solid rgb(26, 170, 253);
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .imagenesProyectos {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
 }
 
-img {
-  margin: 20px;
-  border: solid 1px rgb(26, 170, 253);
-  width: 200px;
-  height: 140px;
-  transition: all 500ms;
+.containerCalLis {
+  display: flex;
 }
 
-img:hover {
-  /* border: solid 10px blueviolet; */
+.containerCaluladora {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.containerLista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerBusCon {
+  display: flex;
+  margin-top: 100px;
+}
+
+.containerBuscador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.containerContador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculadoraWeb:hover {
   transform: scale(1.3);
   filter: drop-shadow(0 0 2em #1000ecaa);
   border-radius: 25px;
 }
 
-footer {
-  margin-top: 50px;
-  border: solid 1px crimson;
+.listaDeCompras:hover {
+  transform: scale(1.3);
+  filter: drop-shadow(0 0 2em #1000ecaa);
+  border-radius: 25px;
 }
 
-/* .calculadoraWeb {
-  margin: 20px 30px 20px 30px;
-  border: solid 1px rgb(53, 253, 26);
-  width: 200px;
-  height: 140px;
+.buscadorDeGifs:hover {
+  transform: scale(1.3);
+  filter: drop-shadow(0 0 2em #1000ecaa);
+  border-radius: 25px;
+}
 
-} */
+.contadorApp:hover {
+  transform: scale(1.3);
+  filter: drop-shadow(0 0 2em #1000ecaa);
+  border-radius: 25px;
+}
 
-/*
+h4 {
+  font-size: 25px;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #09092a;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.anchorLinkedin {
+  display: flex;
+  color: #e2e2ed;
+  transition: all 500ms;
+}
+
+.anchorLinkedin:hover {
+  transform: scale(1.3);
+}
+
+.anchorGitHub {
+  display: flex;
+  color: #e2e2ed;
+  transition: all 500ms;
+}
+
+.anchorGitHub:hover {
+  transform: scale(1.3);
+}
+
+.anchorInstagram {
+  display: flex;
+  color: #e2e2ed;
+  transition: all 500ms;
+}
+
+.anchorInstagram:hover {
+  transform: scale(1.3);
+}
+
+.calculadoraWeb {
+  margin-top: 15px;
+  width: 300px;
+  height: 212px;
+  border-radius: 15px;
+  transition: all 500ms;
+}
 
 .listaDeCompras {
-  width: 200px;
+  margin-top: 15px;
+  width: 300px;
+  height: 212px;
+  border-radius: 15px;
+  transition: all 500ms;
 }
 
 .buscadorDeGifs {
-  width: 200px;
+  margin-top: 15px;
+  width: 300px;
+  height: 212px;
+  border-radius: 15px;
+  transition: all 500ms;
 }
 
 .contadorApp {
-  width: 200px;
-} */
+  margin-top: 15px;
+  width: 300px;
+  height: 212px;
+  border-radius: 15px;
+  transition: all 500ms;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    margin-top: 15px;
+  }
+
+  .containerCalLis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerBusCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerCaluladora {
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+
+  .calculadoraWeb:hover {
+    transform: scale(1.2);
+  }
+
+  .containerLista {
+    margin: 0;
+  }
+
+  .listaDeCompras:hover {
+    transform: scale(1.2);
+  }
+
+  .containerBuscador {
+    margin: 0;
+    margin-bottom: 100px;
+  }
+
+  .buscadorDeGifs:hover {
+    transform: scale(1.2);
+  }
+
+  .contadorApp:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media (max-width: 750px) {
+  .sobreContainer {
+    text-align: center;
+    padding: 0 10px 0 10px;
+  }
+
+  .proyectosContainer {
+    text-align: center;
+    padding: 0 10px 0 10px;
+  }
+}
+
+@media (max-width: 750px) {
+  header {
+    align-items: center;
+  }
+}
