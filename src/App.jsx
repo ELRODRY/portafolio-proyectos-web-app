@@ -33,7 +33,7 @@ function App() {
               >
                 <img
                   className="calculadoraWeb"
-                  src="\src\assets\calculadora-web.jpg"
+                  src="/src/assets/calculadora-web.jpg"
                   alt="Calculadora Web"
                 />
               </a>
