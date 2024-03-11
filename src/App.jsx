@@ -1,4 +1,8 @@
+import React from "react";
 import "./App.css";
+import linkedinLogo from "./assets/linkedin.svg"
+import githubLogo from "./assets/github.svg"
+import instagramLogo from "./assets/instagram.svg"
 
 function App() {
   return (
@@ -86,7 +90,7 @@ function App() {
           target="_blank"
           className="anchorLinkedin"
         >
-          <img src="src\assets\linkedin-svgrepo-com.svg" alt="Icono Linkedin" />
+          <img src={linkedinLogo} alt="Icono Linkedin" />
           <p>Linkedin</p>
         </a>
         <a
@@ -95,7 +99,7 @@ function App() {
           className="anchorGitHub"
         >
           <img
-            src="src\assets\github-color-svgrepo-com.svg"
+            src={githubLogo}
             alt="Icono GitHub"
           />
           <p>GitHub</p>
@@ -106,7 +110,7 @@ function App() {
           className="anchorInstagram"
         >
           <img
-            src="src\assets\instagram-1-svgrepo-com.svg"
+            src={instagramLogo}
             alt="Icono Instagram"
           />
           <p>Instagram</p>
