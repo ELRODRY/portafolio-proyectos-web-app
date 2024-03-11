@@ -3,6 +3,9 @@ import "./App.css";
 import linkedinLogo from "./assets/linkedin.svg"
 import githubLogo from "./assets/github.svg"
 import instagramLogo from "./assets/instagram.svg"
+import calculadoraImg from "./assets/calculadoraWeb.jpg"
+import listaDeCompras from "./assets/listaDeCompras.jpg"
+
 
 function App() {
   return (
@@ -37,7 +40,7 @@ function App() {
               >
                 <img
                   className="calculadoraWeb"
-                  src="/src/assets/calculadora-web.jpg"
+                  src={calculadoraImg}
                   alt="Calculadora Web"
                 />
               </a>
@@ -47,7 +50,7 @@ function App() {
               <a href="https://listadodecompras.netlify.app/" target="_blank">
                 <img
                   className="listaDeCompras"
-                  src="src\assets\lista-de-compras.jpg"
+                  src={listaDeCompras}
                   alt="Lista de Compras"
                 />
               </a>
