@@ -4,7 +4,9 @@ import linkedinLogo from "./assets/linkedin.svg"
 import githubLogo from "./assets/github.svg"
 import instagramLogo from "./assets/instagram.svg"
 import calculadoraImg from "./assets/calculadoraWeb.jpg"
-import listaDeCompras from "./assets/listaDeCompras.jpg"
+import listaDeComprasImg from "./assets/listaDeCompras.jpg"
+import buscadorDeGifsImg from "./assets/buscadorGifs.jpg"
+import contadorImg from "./assets/contadorApp.jpg"
 
 
 function App() {
@@ -50,7 +52,7 @@ function App() {
               <a href="https://listadodecompras.netlify.app/" target="_blank">
                 <img
                   className="listaDeCompras"
-                  src={listaDeCompras}
+                  src={listaDeComprasImg}
                   alt="Lista de Compras"
                 />
               </a>
@@ -65,7 +67,7 @@ function App() {
               >
                 <img
                   className="buscadorDeGifs"
-                  src="src\assets\buscador-gifs.jpg"
+                  src={buscadorDeGifsImg}
                   alt="Buscador de Gifs"
                 />
               </a>
@@ -79,7 +81,7 @@ function App() {
               >
                 <img
                   className="contadorApp"
-                  src="src\assets\contador-app.jpg"
+                  src={contadorImg}
                   alt="Contador App"
                 />
               </a>
