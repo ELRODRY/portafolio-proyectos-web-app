@@ -21,7 +21,7 @@ function App() {
         </div>
       </header>
       <div className="sobreContainer">
-        <h1>Hola me llamo Rodrigo Ezequiel Olivares</h1>
+        <h1>Hola! Mi nombre es Rodrigo Ezequiel Olivares</h1>
         <h2>Soy Frontend Developer Entry-Level</h2>
         <h3>
           Tengo conocimientos en HTML, CSS, JAVASCRIPT y estoy estudiando REACT
